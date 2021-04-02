@@ -64,6 +64,8 @@ and tidy_label_descriptions()." />
 
 
 
+
+
 <!-- mathjax -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script>
@@ -85,9 +87,18 @@ and tidy_label_descriptions()." />
 </script>
 
 
+<!-- dependencies from examples -->
+
+
+  
+
+  
+
   </head>
 
   <body data-spy="scroll" data-target="#toc">
+    
+
     <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -101,7 +112,7 @@ and tidy_label_descriptions()." />
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">usethis</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">2.0.0.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">2.0.1.9000</span>
       </span>
     </div>
 
@@ -234,11 +245,10 @@ and <code>tidy_label_descriptions()</code>.</p>
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
       <th>repo_spec, host, auth_token</th>
-      <td><p><img src='figures/lifecycle-defunct.svg' alt='Defunct lifecycle' />
-: These arguments are
-now deprecated and will be removed in the future. Any input provided via
-these arguments is not used. The target repo, host, and auth token are all
-now determined from the current project's Git remotes.</p></td>
+      <td><p><a href='https://lifecycle.r-lib.org/articles/stages.html#deprecated'><img src='figures/lifecycle-deprecated.svg' alt='[Deprecated]' /></a>: These
+arguments are now deprecated and will be removed in the future. Any input
+provided via these arguments is not used. The target repo, host, and auth
+token are all now determined from the current project's Git remotes.</p></td>
     </tr>
     <tr>
       <th>labels</th>
@@ -312,11 +322,11 @@ example, and that a reply has been sent requesting one from the user.</p></li>
 
       <footer>
       <div class="copyright">
-  <p>Developed by <a href='http://hadley.nz'>Hadley Wickham</a>, <a href='https://jennybryan.org'>Jennifer Bryan</a>, <a href='https://www.rstudio.com'><img src='https://www.tidyverse.org/rstudio-logo.svg' alt='RStudio' height='24' /></a>.</p>
+  <p><p>Developed by <a href="http://hadley.nz" class="external-link">Hadley Wickham</a>, <a href="https://jennybryan.org" class="external-link">Jennifer Bryan</a>, <a href="https://www.rstudio.com" class="external-link"><img src="https://www.tidyverse.org/rstudio-logo.svg" alt="RStudio" height="24"></a>.</p></p>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
+  <p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 1.6.1.9001.</p></p>
 </div>
 
       </footer>
@@ -341,6 +351,8 @@ example, and that a reply has been sent requesting one from the user.</p></li>
 </script>
 
 
+
+  
 
   </body>
 </html>
