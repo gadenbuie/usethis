@@ -121,6 +121,7 @@ release_checklist <- function(version, on_cran) {
     todo("`devtools::build_readme()`", has_readme),
     todo("`devtools::check(remote = TRUE, manual = TRUE)`"),
     todo("`devtools::check_win_devel()`"),
+    todo("`devtools::check_mac_release()`", is_posit_pkg),
     release_revdepcheck(on_cran, is_posit_pkg),
     todo("Update `cran-comments.md`", on_cran),
     todo("`git push`"),
